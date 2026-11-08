@@ -1,0 +1,2 @@
+Source: https://raw.githubusercontent.com/apache/superset/5.0.0/superset-frontend/plugins/legacy-plugin-chart-country-map/src/countries/russia.geojson
+Changes: RU-TA mapped to RU-TAT; longitudes normalized across the antimeridian.

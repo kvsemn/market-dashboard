@@ -1,0 +1,8 @@
+dashboard.example.com {
+    basic_auth {
+        demo REPLACE_WITH_BCRYPT_HASH
+    }
+    reverse_proxy dashboard:8080 {
+        header_up -Authorization
+    }
+}
